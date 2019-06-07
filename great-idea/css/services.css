@@ -1,0 +1,56 @@
+.services-header-img {
+    margin: 35px 0;
+}
+
+.services-header {
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+
+.services-header h2 {
+    font-size: 30px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.service-block {
+    width: 420px;
+    border: 2px solid black;
+    margin-bottom: 35px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.service-block button {
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px 30 px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.service-facts {
+    display: flex;
+    padding-top: 45px;
+}
+
+.facts-container {
+    padding-right: 45px;
+}
+
+.facts-container ul {
+    margin-top: 15px;
+}
+
+.facts-container ul li {
+    margin: 10px;
+    list-style-type: square;
+    margin-left: 20px;
+}
