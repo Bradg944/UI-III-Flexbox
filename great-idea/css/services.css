@@ -1,9 +1,42 @@
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 20px;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 690px
+}
+
+header nav a {
+	display: flex;
+	font-size: 18px;
+	color: lightgray;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: none;
+}
+
+header nav a:last-child {
+  margin-right: 50px;
+}
+
+header .logo {
+	display: inline-block;
+}
 .services-header-img {
-    margin: 35px 0;
+    display: flex;
+    width: 1200px;
+    align-items: stretch;
+    margin: 40px;
 }
 
 .services-header {
-    padding-bottom: 50px;
     border-bottom: 2px solid black;
 }
 
@@ -25,15 +58,15 @@
     border: 2px solid black;
     margin-bottom: 35px;
     background-color: whitesmoke;
-    padding: 15px;
+    padding: 20px;
 }
 
 .service-block button {
     margin-top: 15px;
     background-color: white;
-    padding: 10px 30 px;
+    padding: 10px;;
     border: 2px solid black;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .service-facts {
